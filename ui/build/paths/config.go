@@ -78,6 +78,7 @@ var Configuration = map[string]PathConfig{
 	"bc":       Allowed,
 	"bison":    Log,
 	"bzip2":    Allowed,
+	"curl":     Allowed,
 	"date":     Allowed,
 	"dd":       Allowed,
 	"diff":     Allowed,
