@@ -86,6 +86,7 @@ func installClean(ctx Context, config Config, what int) {
 	// Host bin, frameworks, and lib* are intentionally omitted, since
 	// otherwise we'd have to rebuild any generated files created with
 	// those tools.
+	ctx.Println(productOutPath)
 	removeGlobs(ctx,
 		hostOut("obj/NOTICE_FILES"),
 		hostOut("obj/PACKAGING"),
@@ -101,6 +102,7 @@ func installClean(ctx Context, config Config, what int) {
 		productOut("*.zip.md5sum"),
 		productOut("android-info.txt"),
 		productOut("kernel"),
+		productOut("obj/KERNEL_OBJ"),
 		productOut("data"),
 		productOut("skin"),
 		productOut("obj/NOTICE_FILES"),
