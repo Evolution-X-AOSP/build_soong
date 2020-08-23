@@ -115,17 +115,19 @@ var Configuration = map[string]PathConfig{
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
-	"ar":         Forbidden,
-	"as":         Forbidden,
-	"cc":         Forbidden,
-	"clang":      Forbidden,
-	"clang++":    Forbidden,
-	"gcc":        Forbidden,
-	"g++":        Forbidden,
-	"ld":         Forbidden,
-	"ld.bfd":     Forbidden,
-	"ld.gold":    Forbidden,
-	"pkg-config": Forbidden,
+	"ar":                          Forbidden,
+	"arm-linux-androidkernel-as":  Forbidden,
+	"arm-linux-androidkernel-ld":  Forbidden,
+	"as":                          Forbidden,
+	"cc":                          Forbidden,
+	"clang":                       Forbidden,
+	"clang++":                     Forbidden,
+	"gcc":                         Forbidden,
+	"g++":                         Forbidden,
+	"ld":                          Forbidden,
+	"ld.bfd":                      Forbidden,
+	"ld.gold":                     Forbidden,
+	"pkg-config":                  Forbidden,
 
 	// These are toybox tools that only work on Linux.
 	"pgrep": LinuxOnlyPrebuilt,
