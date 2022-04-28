@@ -111,6 +111,7 @@ var Configuration = map[string]PathConfig{
 	"repo":    Allowed,
 	"rsync":   Allowed,
 	"sh":      Allowed,
+	"soong_zip": Allowed,
 	"tar":     Allowed,
 	"tr":      Allowed,
 	"unzip":   Allowed,
