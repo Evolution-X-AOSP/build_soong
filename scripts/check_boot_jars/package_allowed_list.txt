@@ -263,6 +263,14 @@ org\.chromium\.arc\..*
 com\.nvidia
 com\.nvidia\..*
 
+# OnePlus
+com.oplus.*
+net.oneplus.*
+oplus.*
+vendor.oplus.*
+com.oneplus.*
+vendor.oneplus.*
+
 # QC adds
 com.qualcomm.qti
 com.quicinc.tcmiface
