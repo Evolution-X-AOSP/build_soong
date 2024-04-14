@@ -264,12 +264,15 @@ com\.nvidia
 com\.nvidia\..*
 
 # OnePlus
-com.oplus.*
 net.oneplus.*
 oplus.*
 vendor.oplus.*
 com.oneplus.*
 vendor.oneplus.*
+
+# OP adds
+com\.oplus
+com\.oplus\..*
 
 # QC adds
 com\.quicinc\..*
