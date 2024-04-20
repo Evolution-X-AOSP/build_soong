@@ -272,13 +272,10 @@ com.oneplus.*
 vendor.oneplus.*
 
 # QC adds
-com.qualcomm.qti
-com.quicinc.tcmiface
-com.qualcomm.wfd
-com.qualcomm.wfd.service
-org.codeaurora.ims
-org.codeaurora.internal
-qcom.fmradio
+com\.quicinc\..*
+com\.qualcomm\..*
+org\.codeaurora\..*
+qcom\.fmradio
 
 # Nothing
 com.nothing
